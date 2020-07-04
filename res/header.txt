@@ -3,5 +3,8 @@
 // @version  0.1.0
 // @grant    none
 // @match    *://*.cyberforum.ru/*
+// @license  MIT
+// @copyright 2020, Lera_Rosalene (https://openuserjs.org/users/Lera_Rosalene)
+{OPENUSERJS_META}
 // ==/UserScript==
 

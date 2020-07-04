@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     CF Hide Answered
-// @version  0.1.3
+// @version  0.1.4
 // @grant    none
 // @match    *://*.cyberforum.ru/*
 // @license  MIT

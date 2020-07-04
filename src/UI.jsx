@@ -21,7 +21,9 @@ export class UI {
   }
 
   text() {
-    return this.state ? '[Показать темы с лучшими ответами]' : '[Скрыть темы с лучшими ответами]';
+    return this.state
+      ? `[Показать темы с лучшими ответами (${this.count})]`
+      : `[Скрыть темы с лучшими ответами (${this.count})]`;
   }
 
   createDOMNode() {
@@ -32,11 +34,14 @@ export class UI {
     );
   }
 
-  init(initial) {
+  init(initial, count) {
     this.state = initial;
+    this.count = count;
     this.handleUpdate();
 
-    const root = document.querySelector('.vbmenu_control [href$="usercp.php"]').parentElement.parentElement;
+    const root = document.querySelector('.vbmenu_control [href$="usercp.php"]')
+      .parentElement
+      .parentElement;
     const before = root.lastElementChild;
 
     const ui = this.createDOMNode();

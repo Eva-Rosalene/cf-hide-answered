@@ -28,5 +28,5 @@ ui.onUpdate = state => {
   }
 };
 
-ui.init(getInitialState());
+ui.init(getInitialState(), hider.tracked.length);
 document.head.appendChild(<style>{styleSheet}</style>);

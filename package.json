@@ -1,6 +1,6 @@
 {
   "name": "cf-hide-answered",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Hides answered topics on CyberForum",
   "scripts": {
     "build": "node scripts/build.js",

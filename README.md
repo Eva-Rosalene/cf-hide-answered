@@ -1,3 +1,6 @@
+## Purpose
+1. Hide topics which topicstarters/mods marked as "Answered" (`cyberforum.ru` only)
+
 ## Installation
 
 ### From repository

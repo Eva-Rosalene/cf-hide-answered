@@ -1,0 +1,7 @@
+// ==UserScript==
+// @name     CF Hide Answered
+// @version  0.1.0
+// @grant    none
+// @match    *://*.cyberforum.ru/*
+// ==/UserScript==
+
